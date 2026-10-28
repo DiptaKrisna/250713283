@@ -1,0 +1,87 @@
+body {
+    background-color: #F0F4F8;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#Informasi {
+    min-height: 100vh;
+    padding: 20px 30px;
+    background-color: #D9E6F2;
+    box-shadow: 0 0.5px 1px grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #263238;
+    box-sizing: border-box;
+}
+
+#Informasi h1 {
+    text-align: center;
+    background: linear-gradient(to right, #4A90E2, #356AC3);
+    color: white;
+    font-size: 30px;
+    margin: -20px -30px 20px;
+    padding: 20px 0;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-spacing: 0 12px;
+    table-layout: fixed;
+}
+
+td:first-child {
+    width: 25%;
+    padding-right: 20px;
+}
+
+td:last-child {
+    width: 75%;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font: 16px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    height: 40px;
+}
+
+input[type="file"] {
+    max-width: 100%;
+    font-size: 17px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #356AC3;
+    color: white;
+    font: 16px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #23395D;
+    transform: scale(1.05);
+}

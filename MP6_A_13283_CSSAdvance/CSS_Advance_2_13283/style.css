@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(232, 245, 233);
+    min-height: 100vh;
+    margin: 0;
+}
+
+#Informasi {
+    box-shadow: 0 0.5px 1px 0 grey;
+    background-color: rgb(232, 245, 233);
+    padding: 20px 30px 5px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+}
+
+#Informasi h1 {
+    text-align: center;
+    background: linear-gradient(to right, #43a047, #1b5e20);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -20px;
+    padding: 20px 0;
+    color: white;
+}
+
+#Informasi h3 {
+    color: #1b5e20;
+}
+
+#Informasi table {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#Informasi td {
+    padding: 8px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+#Informasi td:first-child {
+    width: 30%;
+}
+
+#Informasi td:last-child {
+    width: 70%;
+}
+
+#Informasi input[type="text"] {
+    width: 200px;
+    max-width: 95%;
+}
+
+#Informasi textarea {
+    width: 200px;
+    max-width: 95%;
+}
+
+#Informasi input[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#Informasi input[type="file"] {
+    padding: 5px;
+}

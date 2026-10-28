@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Data Mahasiswa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="Informasi">
+        <h1>Formulir Data Mahasiswa</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td><strong>Nama Mahasiswa</strong></td>
+                    <td><input type="text" name="namamhs" size="30" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Nama Orang Tua</strong></td>
+                    <td><input type="text" name="namaortu" size="30" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Jenis Kelamin</strong></td>
+                    <td>
+                        <input type="radio" name="jk" value="Laki-Laki" /> Laki-laki
+                        <input type="radio" name="jk" value="Perempuan" /> Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Program Studi</strong></td>
+                    <td>
+                        <select name="prodi">
+                            <option value="Informatika">Informatika</option>
+                            <option value="Sistem Informasi">Sistem Informasi</option>
+                            <option value="Teknik Industri">Teknik Industri</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Universitas</strong></td>
+                    <td>
+                        <input type="text" name="universitas"
+                        value="Universitas Atma Jaya Yogyakarta" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Nomor Telepon</strong></td>
+                    <td><input type="text" name="telepon" size="30" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Password</strong></td>
+                    <td><input type="password" name="password" size="30" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Foto Mahasiswa</strong></td>
+                    <td>
+                        <input type="file" name="photo"
+                        accept="image/gif, image/jpeg, image/png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Asal Sekolah</strong></td>
+                    <td><input type="text" name="namasmu" size="30" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Asal Daerah</strong></td>
+                    <td><input type="text" name="daerah" size="30" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Deskripsi Diri</strong></td>
+                    <td><textarea name="resume" rows="6" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit" name="simpan" class="link">Simpan</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
